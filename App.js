@@ -9,10 +9,17 @@ class App extends React.Component{
    })
   }
   
+  ClickHandler(){
+    
+  }
+  
   render(){
     return(
       <div>
-         <h1>Code goes here</h1>
+         <h1>Push the Button</h1>
+         <h2> Counter: {}</h2>
+         <button onClick={ClickHandler}>Add to counter</button>
+         
       </div>
     )
   }
